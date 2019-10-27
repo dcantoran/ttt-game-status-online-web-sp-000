@@ -86,7 +86,7 @@ WIN_COMBINATIONS = [
     if board[idx.first] == "X"
       "X" 
     # binding.pry
-    elsif board[idx[0]] == "O" 
+    elsif board[idx.first] == "O" 
       "O"
     end 
   end 
