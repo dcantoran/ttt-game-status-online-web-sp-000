@@ -83,6 +83,7 @@ WIN_COMBINATIONS = [
     if !idx
       return nil 
     end 
+    binding.pry
     if board[idx[0]] == "X"
       "X" 
     elsif board[idx[0]] == "O" 
