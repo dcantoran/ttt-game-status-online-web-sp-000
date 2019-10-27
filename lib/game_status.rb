@@ -80,7 +80,7 @@ WIN_COMBINATIONS = [
   
   def winner(board)
     idx = won?(board)
-    if !won?(board)
+    if !idx
       return nil 
     end 
     if board[idx[0]] == "X"
